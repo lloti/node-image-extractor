@@ -1,0 +1,25 @@
+{
+  "name": "image-extractor",
+  "description": "Grab source images from various image hosts",
+  "main": "lib",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "image",
+    "exractor",
+    "source",
+    "host"
+  ],
+  "author": "Dim <dimggyt@gmail.com> (https://dim.codes)",
+  "bugs": {
+    "url": "https://github.com/lloti/node-image-extractor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lloti/node-image-extractor"
+  },
+  "homepage": "https://github.com/lloti/node-image-extractor#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
