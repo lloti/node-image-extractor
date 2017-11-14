@@ -5,8 +5,11 @@ const images = {
   Pasteboard: 'https://pasteboard.co/GRnUSdqN.png',
   IMG42: 'https://img42.com/bJ59b',
   Gyazo: 'https://gyazo.com/9a0187b816def3ea0b0451820318cecd',
-  LightShot: 'https://prnt.sc/h438tq'
+	LightShot: 'https://prnt.sc/h438tq',
+	DeviantArt: 'https://eddsworld.deviantart.com/art/EWCOMIC-No-218-Pit-679285783'
 };
+
+process.on('unhandledRejection', console.error);
 
 (async () => {
   for (const host in images) {
